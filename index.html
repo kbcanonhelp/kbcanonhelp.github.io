@@ -15,10 +15,36 @@
   <meta name="description" content="Online Canon Support: Visit the Canon USA Support website or call @1-XXX-XXX-XXXX to access to drivers, software downloads, FAQs, and troubleshooting guides">
 </head>
 <body>
-<header>
-    <img src="header.jpg" alt="Canon Printer Help"
-         style="width:100%; height:auto; display:block;">
+<header class="site-header">
+    <img src="header.jpg" alt="Canon Printer Help">
 </header>
+
+<style>
+.site-header {
+    width: 100%;
+    overflow: hidden;
+}
+
+.site-header img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .site-header img {
+        height: 140px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header img {
+        height: 100px;
+    }
+}
+</style>
 <h1>Canon Support | Canon U.S.A., Inc.</h1>
 <p>Need help with your Canon product? Find support &amp; more information regarding all Canon Products &amp; Services, only at Canon U.S.A., Inc.</p>
 
